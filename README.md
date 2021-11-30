@@ -3,7 +3,9 @@ javascript video thumbnail canvas
 
 
 
+# How to use
 
+```js
 capture(video) {
     let w = video.videoWidth * this.scaleFactor;
     let h = video.videoHeight * this.scaleFactor;
@@ -30,3 +32,6 @@ capture(video) {
     }
     return new File([u8arr], filename, { type: mime });
   }
+  ```
+  
+  
